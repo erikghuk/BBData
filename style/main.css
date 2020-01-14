@@ -1,11 +1,42 @@
 .header {
-    text-align: center;
-    font-size: 50px;
+    padding-left: 20px;
+    height: 446px;
+    font-size: 80px;
+    background: url("../image/brb.jpg") no-repeat;
+    background-size: cover;
 }
 
-.headerA {
+.header2{
+    height: 200px;
+    padding-left: 20px;
+    font-size: 80px;
+    background: url("../image/brb2.jpg") no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    margin-top: 20px;
+    height: 35%;
+}
+
+.main_text {
+    font-family: "Bell MT", sans-serif;
+    font-size: 22px;
+}
+
+a {
     text-decoration: none;
-    color: black;
+    color: #9dff35;
+}
+
+.link {
+    font-size: 16px;
+    border: 1px solid gray;
+    background-color: #398daf;
+    padding: 25px 62px;
+    text-align: center;
+    text-decoration: none;
+
 }
 
 li{
@@ -18,7 +49,21 @@ li{
     flex-direction: row;
 }
 
+button {
+    background-color: #398daf;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 .button {
+    margin-top: 50px;
     text-align: center;
 }
 input[type=text] {

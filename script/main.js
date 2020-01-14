@@ -19,6 +19,7 @@ function doit() {
             for(let key in data[0]) {
                 let li = document.createElement('li');
                 let span = document.createElement('span');
+                span.style.fontSize = '20px';
                 if(key === 'img') {
                     let image = document.createElement('img');
                     image.style.width = '300px';
@@ -26,7 +27,8 @@ function doit() {
                     imgDiv.append(image);
                     continue;
                 }
-                span.innerHTML = `<b>${key}</b> : ${data[0][key]}`;
+                let newKey = key[0].toUpperCase() + key.slice(1);
+                span.innerHTML = `<b>${newKey}</b> : ${data[0][key]}`;
                 li.append(span);
                 ul.append(li);
                 rightDiv.appendChild(ul);

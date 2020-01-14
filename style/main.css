@@ -3,6 +3,16 @@
     font-size: 50px;
 }
 
+.headerA {
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    margin: 10px 0;
+    list-style-type: none;
+}
+
 .result {
     display: flex;
     flex-direction: row;
